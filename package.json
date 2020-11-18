@@ -1,0 +1,24 @@
+{
+  "name": "electron-builder-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://NikolayMakhonin@github.com/NikolayMakhonin/electron-builder-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikolayMakhonin/electron-builder-test/issues"
+  },
+  "homepage": "https://github.com/NikolayMakhonin/electron-builder-test#readme",
+  "devDependencies": {
+    "electron": "^11.0.1",
+    "electron-builder": "^22.9.1"
+  }
+}
