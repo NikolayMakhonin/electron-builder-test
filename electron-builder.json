@@ -1,0 +1,34 @@
+{
+    "productName": "Test App",
+    "appId": "com.test.app",
+    "copyright": "©2020 Test App",
+    "buildVersion": "1.17.0-mac",
+    "npmRebuild": false,
+    "compression": "store",
+    "forceCodeSigning": true,
+    "files": [
+        "index.js",
+        "index.html"
+    ],
+    "directories": {
+        "buildResources": "assets",
+        "output": "release"
+    },
+    "mac": {
+        "target": [
+            "mas"
+        ],
+        "icon": "assets/icon.icns",
+        "category": "public.app-category.productivity",
+        "hardenedRuntime": true,
+        "gatekeeperAssess": false,
+        "entitlements": "entitlements.mac.plist",
+        "entitlementsInherit": "entitlements.mac.plist"
+    },
+    "mas": {
+        "hardenedRuntime": false
+    },
+    "pkg": {
+        "installLocation": "/Applications"
+    }
+}
